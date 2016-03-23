@@ -1,0 +1,67 @@
+.front {
+  h3 {
+    margin: 0;
+  }
+
+  .group-top-photo {
+    @include make-row;
+
+    .field-group-format-wrapper {
+      position: relative;
+
+      .field-name-field-banner-text {
+        max-width: 700px;
+        padding: 0 5px;
+        color: #fefefe;
+        font-family: $font-stack;
+        font-size: 18px;
+        font-weight: 300;
+        position: absolute;
+        top: 45%;
+        margin-top: -25px;
+        left: 30%;
+
+        @media screen and (max-width: 710px) {
+          display: none;
+        }
+      }
+
+      .field-name-field-link {
+        max-width: 480px;
+        padding: 0 5px;
+        position: absolute;
+        top: 59%;
+        left: 30%;
+
+        @media screen and (max-width: 991px) {
+          top: 75%;
+        }
+
+        @media screen and (max-width: 710px) {
+          max-width: 360px;
+          top: 28%;
+        }
+
+        a {
+          color: #fefefe;
+          font-family: $font-stack;
+          font-size: 18px;
+          font-weight: 600;
+
+          &:after {
+            content: '';
+            display: inline-block;
+            border: 7px solid transparent;
+            border-left: 12px solid #fefefe;
+            margin-left: 8px;
+            margin-bottom: -1px;
+          }
+
+          @media screen and (max-width: 400px) {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
