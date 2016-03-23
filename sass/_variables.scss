@@ -3,3 +3,12 @@
 $font-stack: 'Open Sans', sans-serif;
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100&subset=latin,cyrillic);
+
+@include font-face("Calibri", font-files(
+  "/fonts/calibri/Calibri-Light.ttf",
+  "/fonts/calibri/Calibri-Light.eot",
+  "/fonts/calibri/Calibri-Light.eot?#iefix",
+  "/fonts/calibri/Calibri-Light.woff2",
+  "/fonts/calibri/Calibri-Light.woff",
+  "/fonts/calibri/Calibri-Light.svg#Calibri-Light"
+));
