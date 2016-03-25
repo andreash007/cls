@@ -1,14 +1,11 @@
 //Fonts
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-$font-stack: 'Open Sans', sans-serif;
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100&subset=latin,cyrillic);
-
 @include font-face("Calibri", font-files(
-  "/fonts/calibri/Calibri-Light.ttf",
-  "/fonts/calibri/Calibri-Light.eot",
-  "/fonts/calibri/Calibri-Light.eot?#iefix",
-  "/fonts/calibri/Calibri-Light.woff2",
-  "/fonts/calibri/Calibri-Light.woff",
-  "/fonts/calibri/Calibri-Light.svg#Calibri-Light"
+  "/sites/all/themes/cls/fonts/calibri/Calibri-Light.ttf",
+  "/sites/all/themes/cls/fonts/calibri/Calibri-Light.eot",
+  "/sites/all/themes/cls/fonts/calibri/Calibri-Light.eot?#iefix",
+  "/sites/all/themes/cls/fonts/calibri/Calibri-Light.woff2",
+  "/sites/all/themes/cls/fonts/calibri/Calibri-Light.woff",
+  "/sites/all/themes/cls/fonts/calibri/Calibri-Light.svg#Calibri-Light"
 ));
+$font-stack: "Calibri", Arial, sans-serif;
+$base-font: "Verdana", sans-serif

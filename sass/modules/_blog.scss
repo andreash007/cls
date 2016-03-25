@@ -1,0 +1,394 @@
+//SINGLE
+.node-type-blog {
+  .pane-page-content {
+    @include make-row;
+
+    .panel-col > div {
+      position: relative;
+
+      .group-top-photo {
+        .field-group-format-wrapper {
+          position: relative;
+
+          .field-name-field-banner-text {
+            max-width: 700px;
+            padding: 0 5px;
+            color: #fefefe;
+            font-family: $font-stack;
+            font-size: 18px;
+            font-weight: 300;
+            position: absolute;
+            top: 45%;
+            margin-top: -25px;
+            left: 30%;
+          }
+
+          .field-name-field-top-right-text {
+            color: white;
+            font-family: $font-stack;
+            font-weight: 400;
+            font-size: 14px;
+            position: absolute;
+            top: 14px;
+            right: 13px;
+
+            @media screen and (max-width: 500px) {
+              display: none;
+            }
+          }
+
+          .field-name-field-link {
+            max-width: 480px;
+            padding: 0 5px;
+            position: absolute;
+            top: 59%;
+            left: 30%;
+
+            @media screen and (max-width: 991px) {
+              top: 75%;
+            }
+
+            @media screen and (max-width: 710px) {
+              max-width: 360px;
+              top: 28%;
+            }
+
+            a {
+              color: #fefefe;
+              font-family: $font-stack;
+              font-size: 19px;
+              font-weight: 600;
+
+              &:after {
+                content: '';
+                display: inline-block;
+                border: 7px solid transparent;
+                border-left: 12px solid #fefefe;
+                margin-left: 8px;
+                margin-bottom: -1px;
+              }
+
+              @media screen and (max-width: 400px) {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+
+      .pane-node-title {
+        padding: 29px 0 30px 52px;
+        margin-top: 32px;
+        border: 1px solid #aeaeae;
+        border-bottom: none;
+        background: url(../img/blue-line.png) no-repeat 12px 32px;
+
+        h1 {
+          font-family: $font-stack;
+          font-size: 22px;
+          font-weight: bold;
+          color: #000;
+          margin: 0;
+        }
+      }
+
+      .pane-node-created {
+        font-family: $font-stack;
+        font-size: 14px;
+        font-weight: 300;
+        position: relative;
+        padding-left: 52px;
+        color: #000;
+
+        .pane-content {
+          position: absolute;
+          top: -26px;
+        }
+      }
+
+      .pane-node-field-term {
+        font-family: $font-stack;
+        font-size: 14px;
+        font-weight: 300;
+        position: relative;
+        padding-left: 52px;
+
+        a {
+          font-family: $font-stack;
+          font-size: 14px;
+          font-weight: 300;
+          color: #2484a1;
+        }
+
+        .pane-content {
+          position: absolute;
+          top: -26px;
+          left: 148px;
+        }
+      }
+
+      .pane-node-body {
+        padding: 0 230px 0 52px;
+        border: 1px solid #aeaeae;
+        border-top: none;
+
+        p {
+          font-family: $font-stack;
+          font-size: 16px;
+          font-weight: normal;
+          margin-bottom: 20px;
+
+          a {
+            color: black;
+          }
+
+          &:first-child {
+            padding-top: 13px;
+          }
+        }
+
+        .field-item > div {
+          color: black;
+          font-family: $font-stack;
+          font-size: 16px;
+          font-weight: 300;
+
+          &:last-child {
+            margin-top: 20px;
+            margin-bottom: 60px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//BLOG
+.page-blog {
+  .pane-node {
+    @include make-row;
+    .group-top-photo {
+
+      h3 {
+        margin: 0;
+      }
+
+      .field-group-format-wrapper {
+        position: relative;
+        margin-bottom: 40px;
+
+        .field-name-field-banner-text {
+          max-width: 700px;
+          padding: 0 5px;
+          color: #fefefe;
+          font-family: $font-stack;
+          font-size: 18px;
+          font-weight: 300;
+          position: absolute;
+          top: 45%;
+          margin-top: -25px;
+          left: 30%;
+        }
+
+        .field-name-field-top-right-text {
+          color: white;
+          font-family: $font-stack;
+          font-weight: 400;
+          font-size: 14px;
+          position: absolute;
+          top: 14px;
+          right: 13px;
+
+          @media screen and (max-width: 500px) {
+            display: none;
+          }
+        }
+
+        .field-name-field-link {
+          max-width: 480px;
+          padding: 0 5px;
+          position: absolute;
+          top: 59%;
+          left: 30%;
+
+          @media screen and (max-width: 991px) {
+            top: 75%;
+          }
+
+          @media screen and (max-width: 710px) {
+            max-width: 360px;
+            top: 28%;
+          }
+
+          a {
+            color: #fefefe;
+            font-family: $font-stack;
+            font-size: 19px;
+            font-weight: 600;
+
+            &:after {
+              content: '';
+              display: inline-block;
+              border: 7px solid transparent;
+              border-left: 12px solid #fefefe;
+              margin-left: 8px;
+              margin-bottom: -1px;
+            }
+
+            @media screen and (max-width: 400px) {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .pane-menu-menu-blog {
+    @include make-row;
+    border: 1px solid #adadad;
+    border-bottom: none;
+    padding: 20px 0 20px 30px;
+
+    .menu {
+      li {
+        display: inline-block;
+        padding: 3px 10px;
+        border-left: 1px solid black;
+
+        &:first-child {
+          padding-left: 0;
+          border-left: none;
+        }
+
+        a {
+          padding: 0;
+          font-family: $font-stack;
+          font-size: 18px;
+          font-weight: 400;
+          color: #339999;
+
+          &:hover {
+            background: none;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+
+  .pane-page-content {
+    @include make-row;
+    border: 1px solid #adadad;
+    border-top: none;
+    padding-left: 26px;
+    padding-right: 34px;
+
+    .views-row {
+      padding-bottom: 45px;
+      padding-left: 40px;
+      margin-bottom: 45px;
+      border-bottom: 1px solid #adadad;
+      font-family: $font-stack;
+      background-position: 0 8px;
+
+      &:nth-child(1) {
+        background: url(../img/blue-line.png) no-repeat 5px 8px;
+      }
+      &:nth-child(2) {
+        background: url(../img/violet-line.png) no-repeat 5px 8px;
+      }
+      &:nth-child(3) {
+        background: url(../img/blue-line-2.png) no-repeat 5px 8px;
+      }
+      &:nth-child(4) {
+        background: url(../img/blue-line.png) no-repeat 5px 8px;
+      }
+      &:last-child {
+        border-bottom: none;
+      }
+      .views-field-nothing {
+        display: inline-block;
+        max-width: 71%;
+        padding-right: 15px;
+      }
+
+      .views-field-filepath {
+        display: inline-block;
+        max-width: 28%;
+        vertical-align: top;
+      }
+
+      .title {
+        padding-bottom: 2px;
+
+        a {
+          font-family: $font-stack;
+          font-size: 22px;
+          font-weight: bold;
+          color: #000;
+        }
+      }
+
+      .post_details {
+        font-size: 14px;
+      }
+
+      .body {
+        position: relative;
+        padding-bottom: 20px;
+
+        p {
+          font-size: 16px;
+          margin-bottom: 0;
+          margin-top: 20px;
+
+          a {
+            position: absolute;
+            bottom: 0;
+            right: 32px;
+            color: white;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 1;
+            background-color: #118abc;
+            border-radius: 3px;
+            padding: 4px 10px 4px 19px;
+
+            &:after {
+              content: '';
+              display: inline-block;
+              border: 5px solid transparent;
+              border-left: 8px solid #fefefe;
+              margin-left: 5px;
+              margin-bottom: -1px;
+            }
+
+            &:hover {
+              text-decoration: none;
+              background-color: #118abc * 0.9;
+            }
+          }
+        }
+      }
+    }
+
+
+    .pagination {
+      font-family: $font-stack;
+
+      li {
+        a {
+          border: none;
+          font-size: 17px;
+        }
+
+        span {
+          border-radius: 0;
+          background: #0088cf;
+          border: none;
+          font-size: 17px;
+        }
+      }
+    }
+  }
+}

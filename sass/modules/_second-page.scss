@@ -1,0 +1,666 @@
+//OUR-WORK PAGE
+
+.page-node-5 {
+  .pane-page-content {
+    @include make-row;
+
+    .panel-col > div {
+      position: relative;
+
+      .pane-node-field-banner-text {
+        max-width: 700px;
+        padding: 0 5px;
+        color: #fefefe;
+        font-family: $font-stack;
+        font-size: 18px;
+        font-weight: 300;
+        position: absolute;
+        top: 130px;
+        margin-top: -25px;
+        left: 30%;
+
+        @media screen and (max-width: 710px) {
+          display: none;
+        }
+      }
+
+      .pane-node-field-top-right-text {
+        color: white;
+        font-family: $font-stack;
+        font-weight: 400;
+        font-size: 14px;
+        position: absolute;
+        top: 14px;
+        right: 13px;
+
+        @media screen and (max-width: 500px) {
+          display: none;
+        }
+      }
+
+      .pane-node-field-link {
+        max-width: 480px;
+        padding: 0 5px;
+        position: absolute;
+        top: 174px;
+        left: 30%;
+
+        @media screen and (max-width: 991px) {
+          top: 75%;
+        }
+
+        @media screen and (max-width: 710px) {
+          max-width: 360px;
+          top: 28%;
+        }
+
+        a {
+          color: #fefefe;
+          font-family: $font-stack;
+          font-size: 19px;
+          font-weight: 600;
+
+          &:after {
+            content: '';
+            display: inline-block;
+            border: 7px solid transparent;
+            border-left: 12px solid #fefefe;
+            margin-left: 8px;
+            margin-bottom: -1px;
+          }
+
+          @media screen and (max-width: 400px) {
+            font-size: 15px;
+          }
+        }
+      }
+
+      .pane-node-title {
+        padding: 29px 0 30px 52px;
+        margin-top: 32px;
+        border: 1px solid #adadad;
+        border-bottom: none;
+        background: url(../img/blue-line.png) no-repeat 12px 32px;
+
+        h1 {
+          font-family: $font-stack;
+          font-size: 22px;
+          font-weight: bold;
+          color: #000;
+          margin: 0;
+        }
+      }
+      .pane-node-body {
+        padding: 0 230px 0 52px;
+        border: 1px solid #adadad;
+        border-top: none;
+
+        p {
+          font-family: $font-stack;
+          font-size: 16px;
+          font-weight: normal;
+          margin-bottom: 26px;
+        }
+      }
+    }
+  }
+}
+
+//GET IN TOUCH PAGE
+.page-node-13 {
+  .panels-flexible-region-8-center {
+    width: 100%;
+    float: none;
+  }
+
+  .pane-page-content {
+    @include make-row;
+
+    > .pane-content {
+      position: relative;
+
+      .panel-separator {
+        margin: 0;
+      }
+
+      .pane-node-field-banner-text {
+        max-width: 700px;
+        padding: 0 5px;
+        color: #fefefe;
+        font-family: $font-stack;
+        font-size: 18px;
+        font-weight: 300;
+        position: absolute;
+        top: 160px;
+        margin-top: -25px;
+        left: 30%;
+
+        @media screen and (max-width: 710px) {
+          display: none;
+        }
+      }
+
+      .pane-node-field-top-right-text {
+        color: white;
+        font-family: $font-stack;
+        font-weight: 400;
+        font-size: 14px;
+        position: absolute;
+        top: 14px;
+        right: 13px;
+
+        @media screen and (max-width: 500px) {
+          display: none;
+        }
+      }
+
+      .pane-node-field-link {
+        max-width: 570px;
+        padding: 0 5px;
+        position: absolute;
+        top: 174px;
+        left: 30%;
+
+        @media screen and (max-width: 991px) {
+          top: 75%;
+        }
+
+        @media screen and (max-width: 710px) {
+          max-width: 360px;
+          top: 28%;
+        }
+
+        a {
+          color: #fefefe;
+          font-family: $font-stack;
+          font-size: 19px;
+          font-weight: 600;
+
+          &:after {
+            content: '';
+            display: inline-block;
+            border: 7px solid transparent;
+            border-left: 12px solid #fefefe;
+            margin-left: 8px;
+            margin-bottom: -1px;
+          }
+
+          @media screen and (max-width: 400px) {
+            font-size: 15px;
+          }
+        }
+      }
+
+      .pane-node-title {
+        padding: 29px 0 30px 52px;
+        margin-top: 32px;
+        border: 1px solid #666;
+        border-bottom: none;
+        background: url(../img/blue-line.png) no-repeat 12px 32px;
+        margin-bottom: -15px;
+
+        h1 {
+          font-family: $font-stack;
+          font-size: 20px;
+          font-weight: bold;
+          color: #000;
+          margin: 0;
+        }
+      }
+
+      .pane-node-body {
+        padding: 0 10px 0 52px;
+        border: 1px solid #666;
+        border-top: none;
+        border-bottom: none;
+
+        p {
+          font-family: $font-stack;
+          font-size: 16px;
+          font-weight: normal;
+          margin-bottom: 25px;
+
+          a {
+            color: black;
+            font-family: $font-stack;
+            font-size: 16px;
+            font-weight: 400;
+          }
+
+          &:first-child {
+            max-width: 480px;
+          }
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          &:nth-child(2n) {
+            margin-bottom: 3px;
+          }
+        }
+      }
+
+      .map {
+        position: absolute;
+        top: 412px;
+        right: 36px;
+      }
+
+      .contacts-form {
+        padding: 26px 10px 42px 52px;
+        border: 1px solid #666;
+        border-top: none;
+
+        .pane-content {
+          max-width: 535px;
+          position: relative;
+        }
+
+        .form-item {
+          clear: both;
+
+          label {
+            float: left;
+            width: 81px;
+            color: black;
+            font-family: $font-stack;
+            font-size: 18px;
+            font-weight: 700;
+
+            span {
+              display: none;
+            }
+          }
+
+          input {
+            max-width: 410px;
+            border: 1px solid #8c8c8c;
+            border-radius: 3px;
+            float: right;
+            margin-bottom: 20px;
+          }
+
+          textarea {
+            max-width: 410px;
+            border: 1px solid #8c8c8c;
+            border-radius: 3px;
+            float: right;
+          }
+
+          .grippie {
+            display: none;
+          }
+        }
+        .captcha {
+          clear: both;
+          position: relative;
+          padding-left: 125px;
+          padding-top: 19px;
+
+          &:before {
+            content: 'Security Code';
+            color: black;
+            font-family: $font-stack;
+            font-size: 18px;
+            font-weight: 700;
+            position: absolute;
+            left: 0;
+            top: 36px;
+          }
+        }
+        .form-actions {
+          position: absolute;
+          right: 0;
+          bottom: 3px;
+
+          button {
+            width: 102px;
+            height: 75px;
+            background-color: #2bd92c;
+            border-radius: 3px;
+            text-transform: uppercase;
+            color: #fefefe;
+            font-family: $font-stack;
+            font-size: 16px;
+            font-weight: 400;
+            border: none;
+            white-space: pre-wrap;
+
+            &:hover {
+              background-color: #2bd92c * 0.9;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.logged-in.page-node-13 .pane-page-content > .pane-content .contacts-form .form-actions {
+  position: static;
+  float: right;
+  margin-top: 17px;
+}
+
+//CREDIT ADVICE PAGE
+.page-node-6 {
+  .pane-page-content {
+    @include make-row;
+
+    .panel-col > div {
+      position: relative;
+
+      .pane-node-field-banner-text {
+        max-width: 740px;
+        padding: 0 5px;
+        color: #fefefe;
+        font-family: $font-stack;
+        font-size: 18px;
+        font-weight: 300;
+        position: absolute;
+        top: 130px;
+        margin-top: -25px;
+        left: 30%;
+
+        @media screen and (max-width: 710px) {
+          display: none;
+        }
+      }
+
+      .pane-node-field-top-right-text {
+        color: white;
+        font-family: $font-stack;
+        font-weight: 400;
+        font-size: 14px;
+        position: absolute;
+        top: 14px;
+        right: 13px;
+
+        @media screen and (max-width: 500px) {
+          display: none;
+        }
+      }
+
+      .pane-node-field-link {
+        max-width: 480px;
+        padding: 0 5px;
+        position: absolute;
+        top: 195px;
+        left: 30%;
+
+        @media screen and (max-width: 991px) {
+          top: 75%;
+        }
+
+        @media screen and (max-width: 710px) {
+          max-width: 360px;
+          top: 28%;
+        }
+
+        a {
+          color: #fefefe;
+          font-family: $font-stack;
+          font-size: 19px;
+          font-weight: 600;
+
+          &:after {
+            content: '';
+            display: inline-block;
+            border: 7px solid transparent;
+            border-left: 12px solid #fefefe;
+            margin-left: 8px;
+            margin-bottom: -1px;
+          }
+
+          @media screen and (max-width: 400px) {
+            font-size: 15px;
+          }
+        }
+      }
+
+      .pane-node-title {
+        padding: 29px 0 30px 52px;
+        margin-top: 32px;
+        border: 1px solid #adadad;
+        border-bottom: none;
+        background: url(../img/blue-line.png) no-repeat 12px 32px;
+        margin-bottom: -15px;
+
+        h1 {
+          font-family: $font-stack;
+          font-size: 22px;
+          font-weight: bold;
+          color: #000;
+          margin: 0;
+        }
+      }
+      .pane-node-body {
+        padding: 0 230px 0 52px;
+        border: 1px solid #adadad;
+        border-top: none;
+        background: url(../img/violet-line.png) no-repeat 12px 95px;
+        p {
+          font-family: $font-stack;
+          font-size: 16px;
+          font-weight: normal;
+          margin-bottom: 26px;
+        }
+
+        h2 {
+          font-family: $font-stack;
+          font-size: 22px;
+          font-weight: bold;
+          margin-top: 55px;
+          margin-bottom: 28px;
+        }
+
+        ul {
+          padding-left: 32px;
+          margin-bottom: 35px;
+          li {
+            color: black;
+            font-family: $font-stack;
+            font-size: 16px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+}
+
+//WHERE WE OPERATE
+.page-node-7 {
+  .pane-page-content {
+    @include make-row;
+
+    .panel-col > div {
+      position: relative;
+
+      .pane-node-field-banner-text {
+        max-width: 700px;
+        padding: 0 5px;
+        color: #fefefe;
+        font-family: $font-stack;
+        font-size: 19px;
+        font-weight: 300;
+        position: absolute;
+        top: 125px;
+        left: 30%;
+
+        @media screen and (max-width: 710px) {
+          display: none;
+        }
+      }
+
+      .pane-node-field-top-right-text {
+        color: white;
+        font-family: $font-stack;
+        font-weight: 400;
+        font-size: 14px;
+        position: absolute;
+        top: 14px;
+        right: 13px;
+
+        @media screen and (max-width: 500px) {
+          display: none;
+        }
+      }
+
+      .pane-node-field-link {
+        max-width: 480px;
+        padding: 0 5px;
+        position: absolute;
+        top: 176px;
+        left: 30%;
+
+        @media screen and (max-width: 991px) {
+          top: 75%;
+        }
+
+        @media screen and (max-width: 710px) {
+          max-width: 360px;
+          top: 28%;
+        }
+
+        a {
+          color: #fefefe;
+          font-family: $font-stack;
+          font-size: 19px;
+          font-weight: 600;
+
+          &:after {
+            content: '';
+            display: inline-block;
+            border: 7px solid transparent;
+            border-left: 12px solid #fefefe;
+            margin-left: 8px;
+            margin-bottom: -1px;
+          }
+
+          @media screen and (max-width: 400px) {
+            font-size: 15px;
+          }
+        }
+      }
+
+      .pane-node-title {
+        padding: 29px 0 30px 52px;
+        margin-top: 32px;
+        border: 1px solid #adadad;
+        border-bottom: none;
+        background: url(../img/operate-line.png) no-repeat 12px 32px;
+
+        h1 {
+          font-family: $font-stack;
+          font-size: 22px;
+          font-weight: bold;
+          color: #000;
+          margin: 0;
+          margin-bottom: -5px;
+        }
+      }
+      .pane-node-body {
+        padding: 0 230px 0 52px;
+        border: 1px solid #adadad;
+        border-top: none;
+        border-bottom: none;
+
+        p {
+          font-family: $font-stack;
+          font-size: 16px;
+          font-weight: normal;
+          padding-bottom: 40px;
+          line-height: 1;
+        }
+      }
+      .lending-solutions, .qed {
+        float: left;
+        width: 50%;
+        border: 1px solid #adadad;
+        border-top: none;
+
+        p {
+          em {
+            font-family: $font-stack;
+            font-size: 16px;
+            font-weight: 700;
+            font-style: normal;
+          }
+
+          &:nth-child(2) {
+            margin-bottom: 2px;
+          }
+
+          a {
+            display: block;
+            color: #044586;
+            font-family: $font-stack;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 5px;
+          }
+        }
+
+        h2 {
+          color: black;
+          font-family: $font-stack;
+          font-size: 18px;
+          font-weight: 700;
+          margin-top: 24px;
+        }
+
+        ul {
+          list-style: none;
+          padding-left: 0;
+
+          li {
+            color: black;
+            font-family: $font-stack;
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 3px;
+
+            em {
+              font-style: normal;
+              display: inline-block;
+              margin-top: 16px;
+            }
+          }
+        }
+
+      }
+
+      .lending-solutions {
+        border-right: none;
+        padding-left: 52px;
+        p {
+          em {
+            color: #044586;
+          }
+
+          &:last-child {
+            margin-top: 44px;
+            margin-bottom: 118px;
+          }
+        }
+      }
+
+      .qed {
+        border-left: none;
+        padding-left: 76px;
+        p {
+          em {
+            color: #6c5da5;
+          }
+
+          &:last-child {
+            margin-top: 32px;
+            margin-bottom: 141px;
+          }
+        }
+      }
+    }
+  }
+}
