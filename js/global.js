@@ -7,6 +7,7 @@
       var Description, url, rmore;
       $('.pane-menu-menu-footer ul.nav li').each(function() {
         Description = $(this).find('a').attr('title');
+        $(this).find('a').removeAttr('title'); // Remove title attr from link
         url = $(this).find('a').attr('href');
         rmore = "<a href='" + url +"'>Read more</a>"
         $(this).append('<span>' + Description + ' ' + rmore + '</span>')
