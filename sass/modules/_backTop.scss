@@ -1,9 +1,8 @@
 /*Main stylesheet for Backtop jQuery Plugin */
 #backTop{
-  width:35px;
-  height:35px;
-  padding:10px;
-  border-radius:4px;
+  width:53px;
+  height:45px;
+  border-radius:3px;
   text-indent:-9999px;
   cursor:pointer;
   z-index:999999999;
@@ -12,11 +11,11 @@
   -webkit-box-sizing:content-box;
 }
 #backTop.white{
-  background:url(../img/uparr-48-b.png) no-repeat center center rgba(255,255,255,0.8);
+  background:url(../img/uparr-48-w.png) no-repeat center center #ccc;
   border:1px solid #ccc;
 }
 #backTop.black{
-  background:url(../img/uparr-48-w.png) no-repeat center center rgba(0,0,0,0.8);
+  background:url(../img/back-to-top.png) no-repeat center center #ccc;
   border:1px solid #ccc;
 }
 #backTop.red{

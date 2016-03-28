@@ -75,29 +75,39 @@
             font-size: 15px;
             font-weight: 300;
             text-transform: uppercase;
-            width: 113px;
+            width: 104px;
             margin: 0 auto;
             margin-right: 0;
             text-indent: -12px;
 
-            &:hover {
-              text-decoration: underline;
-            }
-            &.active {
+            &.active, &:hover {
               background: none;
-              font-weight: 400;
+              font-weight: 600;
+              text-decoration: none;
             }
           }
 
-          &.mlid-694 a, &.mlid-714 a {
-            width: 76px;
+          &.mlid-843 a, &.mlid-714 a {
+            width: 64px;
           }
 
-          &.mlid-692 a {
-            width: 116px;
-            text-indent: -8px;
-          }
+          &.mlid-692{
+            @media screen and (min-width: 767px) {
+              width: 149px;
+            }
 
+            a {
+              width: 100px;
+              text-indent: -8px;
+
+              &.active, &:hover {
+                @media screen and (min-width: 767px) {
+                  width: 104px;
+                  text-indent: -7px;
+                }
+              }
+            }
+        }
           &.leaf a {
             @media screen and (max-width: 767px) {
               width: 100%;

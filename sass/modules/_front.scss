@@ -5,6 +5,7 @@
 
   .group-top-photo {
     @include make-row;
+    margin-bottom: 40px;
 
     .field-group-format-wrapper {
       position: relative;
@@ -22,6 +23,20 @@
         left: 30%;
 
         @media screen and (max-width: 710px) {
+          display: none;
+        }
+      }
+
+      .field-name-field-top-right-text {
+        color: white;
+        font-family: $font-stack;
+        font-weight: 400;
+        font-size: 14px;
+        position: absolute;
+        top: 14px;
+        right: 13px;
+
+        @media screen and (max-width: 500px) {
           display: none;
         }
       }
@@ -45,7 +60,7 @@
         a {
           color: #fefefe;
           font-family: $font-stack;
-          font-size: 18px;
+          font-size: 19px;
           font-weight: 600;
 
           &:after {
