@@ -7982,6 +7982,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   display: none;
   box-sizing: content-box;
   -webkit-box-sizing: content-box;
+  bottom: 64px !important;
 }
 
 #backTop.white {
