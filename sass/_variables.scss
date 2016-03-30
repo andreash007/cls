@@ -1,11 +1,10 @@
 //Fonts
-@include font-face("Calibri", font-files(
-  "/sites/all/themes/cls/fonts/calibri/Calibri-Light.ttf",
-  "/sites/all/themes/cls/fonts/calibri/Calibri-Light.eot",
-  "/sites/all/themes/cls/fonts/calibri/Calibri-Light.eot?#iefix",
-  "/sites/all/themes/cls/fonts/calibri/Calibri-Light.woff2",
-  "/sites/all/themes/cls/fonts/calibri/Calibri-Light.woff",
-  "/sites/all/themes/cls/fonts/calibri/Calibri-Light.svg#Calibri-Light"
+@include font-face("Calibri_light", font-files(
+  "/sites/all/themes/cls/fonts/calibri/calibri.ttf",
+  "/sites/all/themes/cls/fonts/calibri/calibri.eot",
+  "/sites/all/themes/cls/fonts/calibri/calibri.woff",
+  "/sites/all/themes/cls/fonts/calibri/calibri.svg"
 ));
-$font-stack: "Calibri", Arial, sans-serif;
-$base-font: "Verdana", sans-serif
+
+$font-stack: 'Calibri_light', 'Arial', 'Helvetica', sans-serif;
+$base-font: 'Verdana', sans-serif;
