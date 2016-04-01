@@ -4,10 +4,15 @@
   }
 
   .pane-page-logo {
-    @include make-sm-column(3);
+    float: left;
+    width: 25%;
     @extend .hidden-xs;
 
-    padding: 20px 0 20px 15px;
+    img {
+      max-width: 255px;
+    }
+
+    padding: 17px 0 20px 21px;
 
     @media screen and (max-width: 1199px){
       padding: 28px 0 28px 15px;
@@ -24,15 +29,14 @@
   }
 
   .pane-system-main-menu {
-    @include make-sm-column(9);
-    @include make-md-column(8);
-    @include make-md-column-offset(1);
-    @include make-lg-column(7);
-    @include make-lg-column-offset(2);
+    width: 75%;
+    padding: 0;
+    float: left;
+
 
     .navbar-default {
       margin-bottom: 0;
-      padding: 30px 0;
+      padding: 27px 0 33px 0;
       border: none;
       background: none;
 
@@ -53,6 +57,8 @@
       .navbar-nav {
         display: table;
         width: 100%;
+        max-width: 610px;
+        float: right;
 
         @media screen and (max-width: 767px) {
           margin-left: 0;
@@ -75,14 +81,16 @@
             font-size: 15px;
             font-weight: 300;
             text-transform: uppercase;
+            //text-shadow: 0.1px 0 #00a0cb;
             width: 104px;
             margin: 0 auto;
             margin-right: 0;
             text-indent: -12px;
+            line-height: 1;
 
             &.active, &:hover {
               background: none;
-              font-weight: 600;
+              text-shadow: 0.7px 0 #00a0cb;
               text-decoration: none;
             }
           }
@@ -91,23 +99,13 @@
             width: 64px;
           }
 
+          // Home
           &.mlid-692{
-            @media screen and (min-width: 767px) {
-              width: 149px;
-            }
-
             a {
-              width: 100px;
-              text-indent: -8px;
-
-              &.active, &:hover {
-                @media screen and (min-width: 767px) {
-                  width: 104px;
-                  text-indent: -7px;
-                }
-              }
+              width: 102px;
+              text-indent: -7px;
             }
-        }
+          }
           &.leaf a {
             @media screen and (max-width: 767px) {
               width: 100%;

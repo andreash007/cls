@@ -7340,8 +7340,8 @@ button.close {
   }
 }
 @font-face {
-  font-family: "Calibri";
-  src: url(/sites/all/themes/cls/fonts/calibri/Calibri-Light.ttf) format('truetype'), url(/sites/all/themes/cls/fonts/calibri/Calibri-Light.eot) format('embedded-opentype'), url(/sites/all/themes/cls/fonts/calibri/Calibri-Light.eot?#iefix) format('embedded-opentype'), url(/sites/all/themes/cls/fonts/calibri/Calibri-Light.woff2) format('woff2'), url(/sites/all/themes/cls/fonts/calibri/Calibri-Light.woff) format('woff'), url(/sites/all/themes/cls/fonts/calibri/Calibri-Light.svg#Calibri-Light) format('svg');
+  font-family: "Calibri_light";
+  src: url(/sites/all/themes/cls/fonts/calibri/calibri.ttf) format('truetype'), url(/sites/all/themes/cls/fonts/calibri/calibri.eot) format('embedded-opentype'), url(/sites/all/themes/cls/fonts/calibri/calibri.woff) format('woff'), url(/sites/all/themes/cls/fonts/calibri/calibri.svg) format('svg');
 }
 /*
 html {height: 100%}
@@ -7370,7 +7370,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 .pane-footer #mini-panel-footer {
   margin-left: -15px;
   margin-right: -15px;
-  padding-top: 45px;
+  padding-top: 42px;
 }
 .pane-footer #mini-panel-footer:before, .pane-footer #mini-panel-footer:after {
   content: " ";
@@ -7383,7 +7383,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   display: table;
   width: 100%;
   position: relative;
-  padding-bottom: 80px;
+  padding-bottom: 84px;
 }
 @media screen and (max-width: 991px) {
   .pane-footer .pane-menu-menu-footer .menu {
@@ -7417,7 +7417,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 .pane-footer .pane-menu-menu-footer .menu li > a {
   display: block;
   text-align: center;
-  padding: 10px 0;
+  padding: 9px 0;
   color: white;
   font-family: "Verdana", sans-serif;
   font-size: 16px;
@@ -7498,7 +7498,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 .pane-footer .pane-menu-menu-footer .menu li span {
   display: none;
   color: black;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 17px;
   font-weight: 400;
 }
@@ -7530,7 +7530,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   }
 }
 .pane-footer .pane-footer-bottom .arrows {
-  width: 46px;
+  width: 45px;
   height: 50px;
   background: #118abc;
   position: relative;
@@ -7618,7 +7618,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 }
 .pane-footer .pane-footer-bottom .copyright {
   width: 100%;
-  max-width: 877px;
+  max-width: 874px;
   background: #303437;
   float: left;
   margin-top: 5px;
@@ -7646,7 +7646,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 }
 .pane-footer .pane-footer-bottom .copyright p {
   color: white;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: 300;
 }
@@ -7660,9 +7660,8 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   background-color: #118abc;
   margin-top: 5px;
   width: 100%;
-  max-width: 151px;
-  text-align: center;
-  padding: 13px 0 12px 0;
+  max-width: 155px;
+  padding: 13px 0 12px 32px;
 }
 @media screen and (max-width: 991px) {
   .pane-footer .pane-footer-bottom .terms-of-use {
@@ -7706,9 +7705,11 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 .pane-footer .pane-footer-bottom .terms-of-use a:after {
   content: '';
   display: inline-block;
-  border: 5px solid transparent;
-  border-left: 10px solid #fff;
-  margin-left: 8px;
+  border: 4px solid transparent;
+  border-left: 7px solid #fff;
+  margin-left: 6px;
+  position: relative;
+  top: -1px;
 }
 @media screen and (max-width: 627px) {
   .pane-footer .pane-footer-bottom .terms-of-use a:after {
@@ -7740,16 +7741,16 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   position: relative;
 }
 .front .group-top-photo .field-group-format-wrapper .field-name-field-banner-text {
-  max-width: 700px;
+  max-width: 710px;
   padding: 0 5px;
   color: #fefefe;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 18px;
   font-weight: 300;
   position: absolute;
-  top: 45%;
+  top: 160px;
   margin-top: -25px;
-  left: 30%;
+  left: 330px;
 }
 @media screen and (max-width: 710px) {
   .front .group-top-photo .field-group-format-wrapper .field-name-field-banner-text {
@@ -7758,11 +7759,11 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 }
 .front .group-top-photo .field-group-format-wrapper .field-name-field-top-right-text {
   color: white;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-weight: 400;
   font-size: 14px;
   position: absolute;
-  top: 14px;
+  top: 10px;
   right: 13px;
 }
 @media screen and (max-width: 500px) {
@@ -7774,8 +7775,8 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   max-width: 480px;
   padding: 0 5px;
   position: absolute;
-  top: 59%;
-  left: 30%;
+  top: 196px;
+  left: 330px;
 }
 @media screen and (max-width: 991px) {
   .front .group-top-photo .field-group-format-wrapper .field-name-field-link {
@@ -7790,7 +7791,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 }
 .front .group-top-photo .field-group-format-wrapper .field-name-field-link a {
   color: #fefefe;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 19px;
   font-weight: 600;
 }
@@ -7820,17 +7821,12 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   clear: both;
 }
 .pane-header .pane-page-logo {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding: 20px 0 20px 15px;
+  float: left;
+  width: 25%;
+  padding: 17px 0 20px 21px;
 }
-@media (min-width: 768px) {
-  .pane-header .pane-page-logo {
-    float: left;
-    width: 25%;
-  }
+.pane-header .pane-page-logo img {
+  max-width: 255px;
 }
 @media screen and (max-width: 1199px) {
   .pane-header .pane-page-logo {
@@ -7847,50 +7843,13 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   height: auto;
 }
 .pane-header .pane-system-main-menu {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-  .pane-header .pane-system-main-menu {
-    float: left;
-    width: 75%;
-  }
-}
-@media (min-width: 992px) {
-  .pane-header .pane-system-main-menu {
-    float: left;
-    width: 66.66666667%;
-  }
-}
-@media (min-width: 992px) {
-  .pane-header .pane-system-main-menu {
-    margin-left: 8.33333333%;
-  }
-}
-@media (min-width: 1200px) {
-  .pane-header .pane-system-main-menu {
-    float: left;
-    width: 58.33333333%;
-  }
-}
-@media (min-width: 1200px) {
-  .pane-header .pane-system-main-menu {
-    margin-left: 16.66666667%;
-  }
+  width: 75%;
+  padding: 0;
+  float: left;
 }
 .pane-header .pane-system-main-menu .navbar-default {
   margin-bottom: 0;
-  padding: 30px 0;
+  padding: 27px 0 33px 0;
   border: none;
   background: none;
 }
@@ -7910,6 +7869,8 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 .pane-header .pane-system-main-menu .navbar-default .navbar-nav {
   display: table;
   width: 100%;
+  max-width: 610px;
+  float: right;
 }
 @media screen and (max-width: 767px) {
   .pane-header .pane-system-main-menu .navbar-default .navbar-nav {
@@ -7930,7 +7891,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 .pane-header .pane-system-main-menu .navbar-default .navbar-nav li a {
   padding: 0;
   color: #00a0cb;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 15px;
   font-weight: 300;
   text-transform: uppercase;
@@ -7938,29 +7899,19 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   margin: 0 auto;
   margin-right: 0;
   text-indent: -12px;
+  line-height: 1;
 }
 .pane-header .pane-system-main-menu .navbar-default .navbar-nav li a.active, .pane-header .pane-system-main-menu .navbar-default .navbar-nav li a:hover {
   background: none;
-  font-weight: 600;
+  text-shadow: 0.7px 0 #00a0cb;
   text-decoration: none;
 }
 .pane-header .pane-system-main-menu .navbar-default .navbar-nav li.mlid-843 a, .pane-header .pane-system-main-menu .navbar-default .navbar-nav li.mlid-714 a {
   width: 64px;
 }
-@media screen and (min-width: 767px) {
-  .pane-header .pane-system-main-menu .navbar-default .navbar-nav li.mlid-692 {
-    width: 149px;
-  }
-}
 .pane-header .pane-system-main-menu .navbar-default .navbar-nav li.mlid-692 a {
-  width: 100px;
-  text-indent: -8px;
-}
-@media screen and (min-width: 767px) {
-  .pane-header .pane-system-main-menu .navbar-default .navbar-nav li.mlid-692 a.active, .pane-header .pane-system-main-menu .navbar-default .navbar-nav li.mlid-692 a:hover {
-    width: 104px;
-    text-indent: -7px;
-  }
+  width: 102px;
+  text-indent: -7px;
 }
 @media screen and (max-width: 767px) {
   .pane-header .pane-system-main-menu .navbar-default .navbar-nav li.leaf a {
@@ -8020,16 +7971,16 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   position: relative;
 }
 .page-node-5 .pane-page-content .panel-col > div .pane-node-field-banner-text {
-  max-width: 700px;
+  max-width: 640px;
   padding: 0 5px;
   color: #fefefe;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 18px;
   font-weight: 300;
   position: absolute;
-  top: 130px;
+  top: 128px;
   margin-top: -25px;
-  left: 30%;
+  left: 354px;
 }
 @media screen and (max-width: 710px) {
   .page-node-5 .pane-page-content .panel-col > div .pane-node-field-banner-text {
@@ -8038,11 +7989,11 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 }
 .page-node-5 .pane-page-content .panel-col > div .pane-node-field-top-right-text {
   color: white;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-weight: 400;
   font-size: 14px;
   position: absolute;
-  top: 14px;
+  top: 10px;
   right: 13px;
 }
 @media screen and (max-width: 500px) {
@@ -8054,8 +8005,8 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   max-width: 480px;
   padding: 0 5px;
   position: absolute;
-  top: 174px;
-  left: 30%;
+  top: 171px;
+  left: 353px;
 }
 @media screen and (max-width: 991px) {
   .page-node-5 .pane-page-content .panel-col > div .pane-node-field-link {
@@ -8070,9 +8021,9 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 }
 .page-node-5 .pane-page-content .panel-col > div .pane-node-field-link a {
   color: #fefefe;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 19px;
-  font-weight: 600;
+  text-shadow: 0.7px 0 #fff;
 }
 .page-node-5 .pane-page-content .panel-col > div .pane-node-field-link a:after {
   content: '';
@@ -8088,29 +8039,32 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   }
 }
 .page-node-5 .pane-page-content .panel-col > div .pane-node-title {
-  padding: 29px 0 30px 52px;
+  padding: 25px 0 32px 52px;
   margin-top: 32px;
   border: 1px solid #adadad;
   border-bottom: none;
-  background: url(../img/blue-line.png) no-repeat 12px 32px;
+  background: url(../img/blue-line.png) no-repeat 11px 29px;
 }
 .page-node-5 .pane-page-content .panel-col > div .pane-node-title h1 {
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 22px;
   font-weight: bold;
   color: #000;
   margin: 0;
 }
 .page-node-5 .pane-page-content .panel-col > div .pane-node-body {
-  padding: 0 230px 0 52px;
+  padding: 0 210px 0 48px;
   border: 1px solid #adadad;
   border-top: none;
+  margin-top: -6px;
 }
 .page-node-5 .pane-page-content .panel-col > div .pane-node-body p {
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: normal;
   margin-bottom: 26px;
+  text-shadow: 0.1px 0 black;
+  line-height: 24px;
 }
 
 .page-node-13 .panels-flexible-region-8-center {
@@ -8138,13 +8092,13 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   max-width: 700px;
   padding: 0 5px;
   color: #fefefe;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 18px;
   font-weight: 300;
   position: absolute;
   top: 160px;
   margin-top: -25px;
-  left: 30%;
+  left: 345px;
 }
 @media screen and (max-width: 710px) {
   .page-node-13 .pane-page-content > .pane-content .pane-node-field-banner-text {
@@ -8153,11 +8107,11 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 }
 .page-node-13 .pane-page-content > .pane-content .pane-node-field-top-right-text {
   color: white;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-weight: 400;
   font-size: 14px;
   position: absolute;
-  top: 14px;
+  top: 10px;
   right: 13px;
 }
 @media screen and (max-width: 500px) {
@@ -8169,8 +8123,8 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   max-width: 570px;
   padding: 0 5px;
   position: absolute;
-  top: 174px;
-  left: 30%;
+  top: 170px;
+  left: 345px;
 }
 @media screen and (max-width: 991px) {
   .page-node-13 .pane-page-content > .pane-content .pane-node-field-link {
@@ -8185,9 +8139,9 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 }
 .page-node-13 .pane-page-content > .pane-content .pane-node-field-link a {
   color: #fefefe;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 19px;
-  font-weight: 600;
+  text-shadow: 0.7px 0 #fff;
 }
 .page-node-13 .pane-page-content > .pane-content .pane-node-field-link a:after {
   content: '';
@@ -8203,40 +8157,42 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   }
 }
 .page-node-13 .pane-page-content > .pane-content .pane-node-title {
-  padding: 29px 0 30px 52px;
-  margin-top: 32px;
-  border: 1px solid #666;
+  padding: 29px 0 34px 50px;
+  margin-top: 27px;
+  border: 1px solid #B8B8B8;
   border-bottom: none;
-  background: url(../img/blue-line.png) no-repeat 12px 32px;
-  margin-bottom: -15px;
+  background: url(../img/blue-line.png) no-repeat 10px 34px;
+  margin-bottom: -22px;
 }
 .page-node-13 .pane-page-content > .pane-content .pane-node-title h1 {
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 20px;
   font-weight: bold;
   color: #000;
   margin: 0;
 }
 .page-node-13 .pane-page-content > .pane-content .pane-node-body {
-  padding: 0 10px 0 52px;
-  border: 1px solid #666;
+  padding: 0 10px 0 49px;
+  border: 1px solid #B8B8B8;
   border-top: none;
   border-bottom: none;
 }
 .page-node-13 .pane-page-content > .pane-content .pane-node-body p {
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: normal;
   margin-bottom: 25px;
+  text-shadow: 0.1px 0 black;
 }
 .page-node-13 .pane-page-content > .pane-content .pane-node-body p a {
   color: black;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
 .page-node-13 .pane-page-content > .pane-content .pane-node-body p:first-child {
   max-width: 480px;
+  margin-bottom: 20px;
 }
 .page-node-13 .pane-page-content > .pane-content .pane-node-body p:last-child {
   margin-bottom: 0;
@@ -8248,10 +8204,11 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   position: absolute;
   top: 412px;
   right: 36px;
+  border: 1px solid #8D8D8D;
 }
 .page-node-13 .pane-page-content > .pane-content .contacts-form {
   padding: 26px 10px 42px 52px;
-  border: 1px solid #666;
+  border: 1px solid #B8B8B8;
   border-top: none;
 }
 .page-node-13 .pane-page-content > .pane-content .contacts-form .pane-content {
@@ -8265,7 +8222,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   float: left;
   width: 81px;
   color: black;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 18px;
   font-weight: 700;
 }
@@ -8297,7 +8254,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 .page-node-13 .pane-page-content > .pane-content .contacts-form .captcha:before {
   content: 'Security Code';
   color: black;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 18px;
   font-weight: 700;
   position: absolute;
@@ -8316,7 +8273,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   border-radius: 3px;
   text-transform: uppercase;
   color: #fefefe;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
   border: none;
@@ -8350,13 +8307,13 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   max-width: 740px;
   padding: 0 5px;
   color: #fefefe;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 18px;
   font-weight: 300;
   position: absolute;
-  top: 130px;
+  top: 129px;
   margin-top: -25px;
-  left: 30%;
+  left: 343px;
 }
 @media screen and (max-width: 710px) {
   .page-node-6 .pane-page-content .panel-col > div .pane-node-field-banner-text {
@@ -8365,11 +8322,11 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 }
 .page-node-6 .pane-page-content .panel-col > div .pane-node-field-top-right-text {
   color: white;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-weight: 400;
   font-size: 14px;
   position: absolute;
-  top: 14px;
+  top: 10px;
   right: 13px;
 }
 @media screen and (max-width: 500px) {
@@ -8381,8 +8338,8 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   max-width: 480px;
   padding: 0 5px;
   position: absolute;
-  top: 195px;
-  left: 30%;
+  top: 194px;
+  left: 343px;
 }
 @media screen and (max-width: 991px) {
   .page-node-6 .pane-page-content .panel-col > div .pane-node-field-link {
@@ -8397,17 +8354,17 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 }
 .page-node-6 .pane-page-content .panel-col > div .pane-node-field-link a {
   color: #fefefe;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 19px;
-  font-weight: 600;
+  text-shadow: 0.7px 0 #fff;
 }
 .page-node-6 .pane-page-content .panel-col > div .pane-node-field-link a:after {
   content: '';
   display: inline-block;
   border: 7px solid transparent;
-  border-left: 12px solid #fefefe;
-  margin-left: 8px;
-  margin-bottom: -1px;
+  border-left: 11px solid #fefefe;
+  margin-left: 10px;
+  margin-bottom: -2px;
 }
 @media screen and (max-width: 400px) {
   .page-node-6 .pane-page-content .panel-col > div .pane-node-field-link a {
@@ -8415,48 +8372,74 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   }
 }
 .page-node-6 .pane-page-content .panel-col > div .pane-node-title {
-  padding: 29px 0 30px 52px;
-  margin-top: 32px;
+  padding: 29px 0 32px 54px;
+  margin-top: 29px;
   border: 1px solid #adadad;
   border-bottom: none;
-  background: url(../img/blue-line.png) no-repeat 12px 32px;
-  margin-bottom: -15px;
+  background: url(../img/blue-line.png) no-repeat 12px 33px;
+  margin-bottom: -8px;
 }
 .page-node-6 .pane-page-content .panel-col > div .pane-node-title h1 {
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 22px;
   font-weight: bold;
   color: #000;
   margin: 0;
 }
 .page-node-6 .pane-page-content .panel-col > div .pane-node-body {
-  padding: 0 230px 0 52px;
+  padding: 0 230px 0 53px;
   border: 1px solid #adadad;
   border-top: none;
-  background: url(../img/violet-line.png) no-repeat 12px 95px;
+  background: url(../img/violet-line.png) no-repeat 12px 98px;
 }
 .page-node-6 .pane-page-content .panel-col > div .pane-node-body p {
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: normal;
-  margin-bottom: 26px;
+  margin-bottom: 25px;
+  text-shadow: 0.1px 0 black;
+  line-height: 24px;
+  margin-left: 2px;
+}
+.page-node-6 .pane-page-content .panel-col > div .pane-node-body p:first-child {
+  margin-left: 0;
+}
+.page-node-6 .pane-page-content .panel-col > div .pane-node-body p:nth-child(5) {
+  margin-bottom: 17px;
+  margin-left: 0;
 }
 .page-node-6 .pane-page-content .panel-col > div .pane-node-body h2 {
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 22px;
   font-weight: bold;
   margin-top: 55px;
-  margin-bottom: 28px;
+  margin-bottom: 26px;
+  margin-left: 2px;
 }
 .page-node-6 .pane-page-content .panel-col > div .pane-node-body ul {
-  padding-left: 32px;
-  margin-bottom: 35px;
+  padding-left: 27px;
+  margin-bottom: 28px;
+  list-style: none;
 }
 .page-node-6 .pane-page-content .panel-col > div .pane-node-body ul li {
   color: black;
-  font-family: "Calibri", Arial, sans-serif;
+  position: relative;
+  line-height: 24px;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  text-shadow: 0.1px 0 black;
+}
+.page-node-6 .pane-page-content .panel-col > div .pane-node-body ul li:before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: black;
+  display: block;
+  position: absolute;
+  left: -10px;
+  top: 43%;
 }
 
 .page-node-7 .pane-page-content {
@@ -8477,12 +8460,12 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   max-width: 700px;
   padding: 0 5px;
   color: #fefefe;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 19px;
   font-weight: 300;
   position: absolute;
-  top: 125px;
-  left: 30%;
+  top: 122px;
+  left: 392px;
 }
 @media screen and (max-width: 710px) {
   .page-node-7 .pane-page-content .panel-col > div .pane-node-field-banner-text {
@@ -8491,11 +8474,11 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 }
 .page-node-7 .pane-page-content .panel-col > div .pane-node-field-top-right-text {
   color: white;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-weight: 400;
   font-size: 14px;
   position: absolute;
-  top: 14px;
+  top: 10px;
   right: 13px;
 }
 @media screen and (max-width: 500px) {
@@ -8507,8 +8490,8 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   max-width: 480px;
   padding: 0 5px;
   position: absolute;
-  top: 176px;
-  left: 30%;
+  top: 169px;
+  left: 392px;
 }
 @media screen and (max-width: 991px) {
   .page-node-7 .pane-page-content .panel-col > div .pane-node-field-link {
@@ -8523,9 +8506,9 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 }
 .page-node-7 .pane-page-content .panel-col > div .pane-node-field-link a {
   color: #fefefe;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 19px;
-  font-weight: 600;
+  text-shadow: 0.7px 0 #fff;
 }
 .page-node-7 .pane-page-content .panel-col > div .pane-node-field-link a:after {
   content: '';
@@ -8541,14 +8524,15 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   }
 }
 .page-node-7 .pane-page-content .panel-col > div .pane-node-title {
-  padding: 29px 0 30px 52px;
-  margin-top: 32px;
+  padding: 40px 0 32px 64px;
+  margin-top: 33px;
+  margin-bottom: -4px;
   border: 1px solid #adadad;
   border-bottom: none;
-  background: url(../img/operate-line.png) no-repeat 12px 32px;
+  background: url(../img/operate-line.png) no-repeat 21px 44px;
 }
 .page-node-7 .pane-page-content .panel-col > div .pane-node-title h1 {
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 22px;
   font-weight: bold;
   color: #000;
@@ -8556,37 +8540,42 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   margin-bottom: -5px;
 }
 .page-node-7 .pane-page-content .panel-col > div .pane-node-body {
-  padding: 0 230px 0 52px;
+  padding: 0 230px 0 64px;
   border: 1px solid #adadad;
   border-top: none;
   border-bottom: none;
 }
 .page-node-7 .pane-page-content .panel-col > div .pane-node-body p {
-  font-family: "Calibri", Arial, sans-serif;
-  font-size: 16px;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
+  font-size: 18px;
   font-weight: normal;
-  padding-bottom: 40px;
+  padding-bottom: 42px;
   line-height: 1;
+  text-shadow: 0.1px 0 black;
 }
 .page-node-7 .pane-page-content .panel-col > div .lending-solutions, .page-node-7 .pane-page-content .panel-col > div .qed {
   float: left;
   width: 50%;
   border: 1px solid #adadad;
   border-top: none;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
 }
 .page-node-7 .pane-page-content .panel-col > div .lending-solutions p em, .page-node-7 .pane-page-content .panel-col > div .qed p em {
-  font-family: "Calibri", Arial, sans-serif;
   font-size: 16px;
   font-weight: 700;
   font-style: normal;
 }
 .page-node-7 .pane-page-content .panel-col > div .lending-solutions p:nth-child(2), .page-node-7 .pane-page-content .panel-col > div .qed p:nth-child(2) {
-  margin-bottom: 2px;
+  margin-bottom: 1px;
+}
+.page-node-7 .pane-page-content .panel-col > div .lending-solutions p:nth-child(3), .page-node-7 .pane-page-content .panel-col > div .lending-solutions p strong, .page-node-7 .pane-page-content .panel-col > div .qed p:nth-child(3), .page-node-7 .pane-page-content .panel-col > div .qed p strong {
+  font-size: 18px;
+  line-height: 18px;
 }
 .page-node-7 .pane-page-content .panel-col > div .lending-solutions p a, .page-node-7 .pane-page-content .panel-col > div .qed p a {
   display: block;
   color: #044586;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 1;
@@ -8594,10 +8583,14 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 }
 .page-node-7 .pane-page-content .panel-col > div .lending-solutions h2, .page-node-7 .pane-page-content .panel-col > div .qed h2 {
   color: black;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  margin-top: 24px;
+  margin-top: 26px;
+  margin-bottom: 7px;
+}
+.page-node-7 .pane-page-content .panel-col > div .lending-solutions h2:nth-child(6), .page-node-7 .pane-page-content .panel-col > div .qed h2:nth-child(6) {
+  margin-top: 29px;
 }
 .page-node-7 .pane-page-content .panel-col > div .lending-solutions ul, .page-node-7 .pane-page-content .panel-col > div .qed ul {
   list-style: none;
@@ -8605,10 +8598,11 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 }
 .page-node-7 .pane-page-content .panel-col > div .lending-solutions ul li, .page-node-7 .pane-page-content .panel-col > div .qed ul li {
   color: black;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  margin-bottom: 3px;
+  text-shadow: 0.1px 0 black;
+  line-height: 22px;
 }
 .page-node-7 .pane-page-content .panel-col > div .lending-solutions ul li em, .page-node-7 .pane-page-content .panel-col > div .qed ul li em {
   font-style: normal;
@@ -8617,25 +8611,43 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 }
 .page-node-7 .pane-page-content .panel-col > div .lending-solutions {
   border-right: none;
-  padding-left: 52px;
+  padding-left: 65px;
+}
+.page-node-7 .pane-page-content .panel-col > div .lending-solutions p img {
+  margin-left: -19px;
+  margin-bottom: -2px;
 }
 .page-node-7 .pane-page-content .panel-col > div .lending-solutions p em {
   color: #044586;
 }
+.page-node-7 .pane-page-content .panel-col > div .lending-solutions p:first-child {
+  margin-bottom: 0;
+}
 .page-node-7 .pane-page-content .panel-col > div .lending-solutions p:last-child {
-  margin-top: 44px;
+  margin-top: 48px;
   margin-bottom: 118px;
 }
 .page-node-7 .pane-page-content .panel-col > div .qed {
   border-left: none;
-  padding-left: 76px;
+  padding-left: 88px;
+}
+.page-node-7 .pane-page-content .panel-col > div .qed h2 {
+  margin-top: 27px;
+}
+.page-node-7 .pane-page-content .panel-col > div .qed p img {
+  margin-left: -6px;
+  margin-top: -4px;
+  margin-bottom: 1px;
 }
 .page-node-7 .pane-page-content .panel-col > div .qed p em {
   color: #6c5da5;
 }
+.page-node-7 .pane-page-content .panel-col > div .qed p:first-child {
+  margin-bottom: 0;
+}
 .page-node-7 .pane-page-content .panel-col > div .qed p:last-child {
   margin-top: 32px;
-  margin-bottom: 141px;
+  margin-bottom: 144px;
 }
 
 .node-type-blog .pane-page-content {
@@ -8652,6 +8664,10 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 .node-type-blog .pane-page-content .panel-col > div {
   position: relative;
 }
+.node-type-blog .pane-page-content .panel-col > div .group-top-photo {
+  margin-left: 0;
+  margin-right: 0;
+}
 .node-type-blog .pane-page-content .panel-col > div .group-top-photo .field-group-format-wrapper {
   position: relative;
 }
@@ -8659,7 +8675,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   max-width: 700px;
   padding: 0 5px;
   color: #fefefe;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 18px;
   font-weight: 300;
   position: absolute;
@@ -8669,7 +8685,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 }
 .node-type-blog .pane-page-content .panel-col > div .group-top-photo .field-group-format-wrapper .field-name-field-top-right-text {
   color: white;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-weight: 400;
   font-size: 14px;
   position: absolute;
@@ -8701,7 +8717,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 }
 .node-type-blog .pane-page-content .panel-col > div .group-top-photo .field-group-format-wrapper .field-name-field-link a {
   color: #fefefe;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 19px;
   font-weight: 600;
 }
@@ -8726,14 +8742,14 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   background: url(../img/blue-line.png) no-repeat 12px 32px;
 }
 .node-type-blog .pane-page-content .panel-col > div .pane-node-title h1 {
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 22px;
   font-weight: bold;
   color: #000;
   margin: 0;
 }
 .node-type-blog .pane-page-content .panel-col > div .pane-node-created {
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 14px;
   font-weight: 300;
   position: relative;
@@ -8745,14 +8761,14 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   top: -26px;
 }
 .node-type-blog .pane-page-content .panel-col > div .pane-node-field-term {
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 14px;
   font-weight: 300;
   position: relative;
   padding-left: 52px;
 }
 .node-type-blog .pane-page-content .panel-col > div .pane-node-field-term a {
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: #2484a1;
@@ -8768,7 +8784,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   border-top: none;
 }
 .node-type-blog .pane-page-content .panel-col > div .pane-node-body p {
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: normal;
   margin-bottom: 20px;
@@ -8781,7 +8797,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
 }
 .node-type-blog .pane-page-content .panel-col > div .pane-node-body .field-item > div {
   color: black;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: 300;
 }
@@ -8790,29 +8806,29 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   margin-bottom: 60px;
 }
 
-.page-blog .pane-node {
+article.node-page .group-top-photo {
   margin-left: -15px;
   margin-right: -15px;
 }
-.page-blog .pane-node:before, .page-blog .pane-node:after {
+article.node-page .group-top-photo:before, article.node-page .group-top-photo:after {
   content: " ";
   display: table;
 }
-.page-blog .pane-node:after {
+article.node-page .group-top-photo:after {
   clear: both;
 }
-.page-blog .pane-node .group-top-photo h3 {
+article.node-page .group-top-photo h3 {
   margin: 0;
 }
-.page-blog .pane-node .group-top-photo .field-group-format-wrapper {
+article.node-page .group-top-photo .field-group-format-wrapper {
   position: relative;
   margin-bottom: 40px;
 }
-.page-blog .pane-node .group-top-photo .field-group-format-wrapper .field-name-field-banner-text {
+article.node-page .group-top-photo .field-group-format-wrapper .field-name-field-banner-text {
   max-width: 700px;
   padding: 0 5px;
   color: #fefefe;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 18px;
   font-weight: 300;
   position: absolute;
@@ -8820,9 +8836,9 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   margin-top: -25px;
   left: 30%;
 }
-.page-blog .pane-node .group-top-photo .field-group-format-wrapper .field-name-field-top-right-text {
+article.node-page .group-top-photo .field-group-format-wrapper .field-name-field-top-right-text {
   color: white;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-weight: 400;
   font-size: 14px;
   position: absolute;
@@ -8830,11 +8846,11 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   right: 13px;
 }
 @media screen and (max-width: 500px) {
-  .page-blog .pane-node .group-top-photo .field-group-format-wrapper .field-name-field-top-right-text {
+  article.node-page .group-top-photo .field-group-format-wrapper .field-name-field-top-right-text {
     display: none;
   }
 }
-.page-blog .pane-node .group-top-photo .field-group-format-wrapper .field-name-field-link {
+article.node-page .group-top-photo .field-group-format-wrapper .field-name-field-link {
   max-width: 480px;
   padding: 0 5px;
   position: absolute;
@@ -8842,23 +8858,23 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   left: 30%;
 }
 @media screen and (max-width: 991px) {
-  .page-blog .pane-node .group-top-photo .field-group-format-wrapper .field-name-field-link {
+  article.node-page .group-top-photo .field-group-format-wrapper .field-name-field-link {
     top: 75%;
   }
 }
 @media screen and (max-width: 710px) {
-  .page-blog .pane-node .group-top-photo .field-group-format-wrapper .field-name-field-link {
+  article.node-page .group-top-photo .field-group-format-wrapper .field-name-field-link {
     max-width: 360px;
     top: 28%;
   }
 }
-.page-blog .pane-node .group-top-photo .field-group-format-wrapper .field-name-field-link a {
+article.node-page .group-top-photo .field-group-format-wrapper .field-name-field-link a {
   color: #fefefe;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 19px;
   font-weight: 600;
 }
-.page-blog .pane-node .group-top-photo .field-group-format-wrapper .field-name-field-link a:after {
+article.node-page .group-top-photo .field-group-format-wrapper .field-name-field-link a:after {
   content: '';
   display: inline-block;
   border: 7px solid transparent;
@@ -8867,45 +8883,47 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   margin-bottom: -1px;
 }
 @media screen and (max-width: 400px) {
-  .page-blog .pane-node .group-top-photo .field-group-format-wrapper .field-name-field-link a {
+  article.node-page .group-top-photo .field-group-format-wrapper .field-name-field-link a {
     font-size: 15px;
   }
 }
-.page-blog .pane-menu-menu-blog {
+
+.pane-menu-menu-blog {
   margin-left: -15px;
   margin-right: -15px;
   border: 1px solid #adadad;
   border-bottom: none;
   padding: 20px 0 20px 30px;
 }
-.page-blog .pane-menu-menu-blog:before, .page-blog .pane-menu-menu-blog:after {
+.pane-menu-menu-blog:before, .pane-menu-menu-blog:after {
   content: " ";
   display: table;
 }
-.page-blog .pane-menu-menu-blog:after {
+.pane-menu-menu-blog:after {
   clear: both;
 }
-.page-blog .pane-menu-menu-blog .menu li {
+.pane-menu-menu-blog .menu li {
   display: inline-block;
   padding: 3px 10px;
   border-left: 1px solid black;
 }
-.page-blog .pane-menu-menu-blog .menu li:first-child {
+.pane-menu-menu-blog .menu li:first-child {
   padding-left: 0;
   border-left: none;
 }
-.page-blog .pane-menu-menu-blog .menu li a {
+.pane-menu-menu-blog .menu li a {
   padding: 0;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #339999;
 }
-.page-blog .pane-menu-menu-blog .menu li a:hover {
+.pane-menu-menu-blog .menu li a:hover {
   background: none;
   font-weight: 600;
 }
-.page-blog .pane-page-content {
+
+.view-blog {
   margin-left: -15px;
   margin-right: -15px;
   border: 1px solid #adadad;
@@ -8913,68 +8931,68 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   padding-left: 26px;
   padding-right: 34px;
 }
-.page-blog .pane-page-content:before, .page-blog .pane-page-content:after {
+.view-blog:before, .view-blog:after {
   content: " ";
   display: table;
 }
-.page-blog .pane-page-content:after {
+.view-blog:after {
   clear: both;
 }
-.page-blog .pane-page-content .views-row {
+.view-blog .views-row {
   padding-bottom: 45px;
   padding-left: 40px;
   margin-bottom: 45px;
   border-bottom: 1px solid #adadad;
-  font-family: "Calibri", Arial, sans-serif;
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   background-position: 0 8px;
 }
-.page-blog .pane-page-content .views-row:nth-child(1) {
+.view-blog .views-row:nth-child(1) {
   background: url(../img/blue-line.png) no-repeat 5px 8px;
 }
-.page-blog .pane-page-content .views-row:nth-child(2) {
+.view-blog .views-row:nth-child(2) {
   background: url(../img/violet-line.png) no-repeat 5px 8px;
 }
-.page-blog .pane-page-content .views-row:nth-child(3) {
+.view-blog .views-row:nth-child(3) {
   background: url(../img/blue-line-2.png) no-repeat 5px 8px;
 }
-.page-blog .pane-page-content .views-row:nth-child(4) {
+.view-blog .views-row:nth-child(4) {
   background: url(../img/blue-line.png) no-repeat 5px 8px;
 }
-.page-blog .pane-page-content .views-row:last-child {
+.view-blog .views-row:last-child {
   border-bottom: none;
 }
-.page-blog .pane-page-content .views-row .views-field-nothing {
+.view-blog .views-row .views-field-nothing {
   display: inline-block;
   max-width: 71%;
   padding-right: 15px;
 }
-.page-blog .pane-page-content .views-row .views-field-filepath {
+.view-blog .views-row .views-field-filepath {
   display: inline-block;
   max-width: 28%;
   vertical-align: top;
 }
-.page-blog .pane-page-content .views-row .title {
+.view-blog .views-row .title {
   padding-bottom: 2px;
 }
-.page-blog .pane-page-content .views-row .title a {
-  font-family: "Calibri", Arial, sans-serif;
+.view-blog .views-row .title a {
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
   font-size: 22px;
   font-weight: bold;
   color: #000;
 }
-.page-blog .pane-page-content .views-row .post_details {
+.view-blog .views-row .post_details {
   font-size: 14px;
 }
-.page-blog .pane-page-content .views-row .body {
+.view-blog .views-row .body {
   position: relative;
   padding-bottom: 20px;
 }
-.page-blog .pane-page-content .views-row .body p {
+.view-blog .views-row .body p {
   font-size: 16px;
   margin-bottom: 0;
   margin-top: 20px;
 }
-.page-blog .pane-page-content .views-row .body p a {
+.view-blog .views-row .body p a {
   position: absolute;
   bottom: 0;
   right: 32px;
@@ -8986,7 +9004,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   border-radius: 3px;
   padding: 4px 10px 4px 19px;
 }
-.page-blog .pane-page-content .views-row .body p a:after {
+.view-blog .views-row .body p a:after {
   content: '';
   display: inline-block;
   border: 5px solid transparent;
@@ -8994,18 +9012,18 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
   margin-left: 5px;
   margin-bottom: -1px;
 }
-.page-blog .pane-page-content .views-row .body p a:hover {
+.view-blog .views-row .body p a:hover {
   text-decoration: none;
   background-color: #0f7ca9;
 }
-.page-blog .pane-page-content .pagination {
-  font-family: "Calibri", Arial, sans-serif;
+.view-blog .pagination {
+  font-family: "Calibri_light", "Arial", "Helvetica", sans-serif;
 }
-.page-blog .pane-page-content .pagination li a {
+.view-blog .pagination li a {
   border: none;
   font-size: 17px;
 }
-.page-blog .pane-page-content .pagination li span {
+.view-blog .pagination li span {
   border-radius: 0;
   background: #0088cf;
   border: none;
