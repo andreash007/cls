@@ -7,7 +7,11 @@
     @include make-sm-column(3);
     @extend .hidden-xs;
 
-    padding: 20px 0 20px 15px;
+    img {
+      max-width: 255px;
+    }
+
+    padding: 17px 0 20px 23px;
 
     @media screen and (max-width: 1199px){
       padding: 28px 0 28px 15px;
@@ -29,10 +33,12 @@
     @include make-md-column-offset(1);
     @include make-lg-column(7);
     @include make-lg-column-offset(2);
+    padding-right: 0;
+    padding-left: 100px;
 
     .navbar-default {
       margin-bottom: 0;
-      padding: 30px 0;
+      padding: 27px 0 33px 0;
       border: none;
       background: none;
 
@@ -75,10 +81,12 @@
             font-size: 15px;
             font-weight: 300;
             text-transform: uppercase;
+            text-shadow: 0.1px 0 #00a0cb;
             width: 104px;
             margin: 0 auto;
             margin-right: 0;
             text-indent: -12px;
+            line-height: 1;
 
             &.active, &:hover {
               background: none;
@@ -93,17 +101,17 @@
 
           &.mlid-692{
             @media screen and (min-width: 767px) {
-              width: 149px;
+              width: 100px;
             }
 
             a {
-              width: 100px;
-              text-indent: -8px;
+              width: 102px;
+              text-indent: -7px;
 
               &.active, &:hover {
                 @media screen and (min-width: 767px) {
-                  width: 104px;
-                  text-indent: -7px;
+                  width: 105px;
+                  text-indent: -4px; 
                 }
               }
             }
