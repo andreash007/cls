@@ -9,7 +9,7 @@
       .group-top-photo {
         margin-left: 0;
         margin-right: 0;
-        
+
         .field-group-format-wrapper {
           position: relative;
 
@@ -51,7 +51,7 @@
               top: 75%;
             }
 
-            @media screen and (max-width: 710px) {
+            @media screen and (max-width: 720px) {
               max-width: 360px;
               top: 28%;
             }
@@ -85,6 +85,12 @@
         border: 1px solid #aeaeae;
         border-bottom: none;
         background: url(../img/blue-line.png) no-repeat 12px 32px;
+
+        @media screen and (max-width: 400px){
+          padding-left: 15px;
+          padding-right: 15px;
+          background: none;
+        }
 
         h1 {
           font-family: $font-stack;
@@ -135,6 +141,15 @@
         border: 1px solid #aeaeae;
         border-top: none;
 
+        @media screen and (max-width: 991px) {
+          padding-right: 40px;
+        }
+
+        @media screen and (max-width: 400px){
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+
         p {
           font-family: $font-stack;
           font-size: 16px;
@@ -143,6 +158,13 @@
 
           a {
             color: black;
+          }
+
+          img {
+            @media screen and (max-width: 700px){
+              width: 100%!important;
+              height: auto!important;
+            }
           }
 
           &:first-child {
@@ -180,7 +202,7 @@ article.node-page {
       margin-bottom: 40px;
 
       .field-name-field-banner-text {
-        max-width: 700px;
+        max-width: 720px;
         padding: 0 5px;
         color: #fefefe;
         font-family: $font-stack;
@@ -190,6 +212,10 @@ article.node-page {
         top: 45%;
         margin-top: -25px;
         left: 30%;
+
+        @media screen and (max-width: 720px) {
+          display: none;
+        }
       }
 
       .field-name-field-top-right-text {
@@ -226,7 +252,7 @@ article.node-page {
           color: #fefefe;
           font-family: $font-stack;
           font-size: 19px;
-          font-weight: 600;
+          font-weight: 400;
 
           &:after {
             content: '';
@@ -245,13 +271,26 @@ article.node-page {
     }
   }
 }
+
+//Blog menu
   .pane-menu-menu-blog {
     @include make-row;
     border: 1px solid #adadad;
     border-bottom: none;
     padding: 20px 0 20px 30px;
+    
+    @media screen and (max-width: 500px) {
+      padding-left: 0;
+    }
 
     .menu {
+
+      @media screen and (max-width: 500px) {
+        margin: 0 auto;
+        display: block;
+        width: 290px;
+      }
+
       li {
         display: inline-block;
         padding: 3px 10px;
@@ -269,7 +308,11 @@ article.node-page {
           font-weight: 400;
           color: #339999;
 
-          &:hover {
+          @media screen and (max-width: 500px) {
+            font-size: 16px;
+          }
+
+          &:hover, &:focus {
             background: none;
             font-weight: 600;
           }
@@ -285,6 +328,10 @@ article.node-page {
   padding-left: 26px;
   padding-right: 34px;
 
+  @media screen and (max-width: 400px) {
+    padding: 0 15px;
+  }
+
   .views-row {
     padding-bottom: 45px;
     padding-left: 40px;
@@ -293,6 +340,10 @@ article.node-page {
     font-family: $font-stack;
     background-position: 0 8px;
 
+    @media screen and (max-width: 400px) {
+      background: none!important;
+      padding-left: 5px;
+   }
     &:nth-child(1) {
       background: url(../img/blue-line.png) no-repeat 5px 8px;
     }
@@ -312,12 +363,20 @@ article.node-page {
       display: inline-block;
       max-width: 71%;
       padding-right: 15px;
+
+      @media screen and (max-width: 600px) {
+        max-width: 100%;
+      }
     }
 
     .views-field-filepath {
       display: inline-block;
       max-width: 28%;
       vertical-align: top;
+
+      @media screen and (max-width: 600px) {
+        max-width: 100%;
+      }
     }
 
     .title {
@@ -355,6 +414,13 @@ article.node-page {
           background-color: #118abc;
           border-radius: 3px;
           padding: 4px 10px 4px 19px;
+
+          @media screen and (max-width: 600px) {
+            position: static;
+            display: block;
+            max-width: 119px;
+            margin: 10px 0 10px auto;
+          }
 
           &:after {
             content: '';

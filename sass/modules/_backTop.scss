@@ -10,6 +10,16 @@
   box-sizing:content-box;
   -webkit-box-sizing:content-box;
   bottom: 64px!important;
+  
+  @media screen and (max-width: 991px) {
+    bottom: 47px!important;
+    right: 5px!important;
+  }
+
+  @media screen and (max-width: 460px) {
+    bottom: 63px !important;
+    right: 9px !important;
+  }
 }
 #backTop.white{
   background:url(../img/uparr-48-w.png) no-repeat center center #ccc;

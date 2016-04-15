@@ -1,7 +1,7 @@
 (function ($) {
   Drupal.behaviors.cls = {
     attach: function (context, settings) {
-      /**
+       /**
        * Add div with Description in footer menu
        */
       var Description, url, rmore;

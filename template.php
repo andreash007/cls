@@ -11,7 +11,7 @@
 function cls_preprocess_html (&$vars) {
   //  Add Font Awesome
   //  drupal_add_css('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css', array('group' => CSS_THEME, 'type' => 'external'));
-  drupal_add_css('http://localhost:8080/developer/cls/css/style.css', array('group' => CSS_THEME, 'type' => 'external'));
+  // drupal_add_css('http://localhost:8080/developer/cls/css/style.css', array('group' => CSS_THEME, 'type' => 'external'));
 }
 
 /**

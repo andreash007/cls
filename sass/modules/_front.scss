@@ -3,6 +3,12 @@
     margin: 0;
   }
 
+   &.body > .panel-1col {
+     @media screen and (min-width: 999px) {
+
+     }
+   }
+
   .group-top-photo {
     @include make-row;
     margin-bottom: 40px;

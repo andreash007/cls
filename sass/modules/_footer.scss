@@ -1,7 +1,9 @@
 //Footer in bottom (always)
-/*
+
 html {height: 100%}
-body {min-height: 100%; position: relative; padding-bottom: 180px;}
+body {min-height: 100%; position: relative;}
+
+/*
 .pane-footer {position: absolute; width: 100%; bottom: 0; left: 0}
 
 @media screen and (max-width: 991px) {
@@ -79,7 +81,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
           @media screen and (max-width: 767px) {
             padding: 10px 5px;
           }
-          @media screen and (max-width: 761px) and (min-width: 461px) {
+          @media screen and (max-width: 767px) and (min-width: 461px) {
             padding: 19px 5px;
           }
         }
@@ -114,7 +116,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
               background-color: #374eff * 0.8;
             }
 
-            @media screen and (max-width: 656px) {
+            @media screen and (max-width: 681px) {
               padding: 10px 5px;
             }
           }
@@ -126,7 +128,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
             &:hover {
               background-color: #62329b * 0.8;
             }
-            @media screen and (max-width: 759px) {
+            @media screen and (max-width: 767px) {
               padding: 10px 5px;
             }
           }
@@ -184,7 +186,11 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
       }
     }
   }
-
+  @media screen and (max-width: 665px) {
+    .front .pane-footer .pane-menu-menu-footer .menu li:nth-child(3) > a {
+      padding: 10px 5px;
+    }
+  }
   //Footer bottom
   .pane-footer-bottom {
 
@@ -283,9 +289,10 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
       margin-top: 5px;
       text-align: center;
       padding: 12px 0 11px 0;
+      height: 45px;
 
       @media screen and (max-width: 1199px) {
-        max-width: 677px;
+        max-width: 674px;
       }
       @media screen and (max-width: 991px) {
         max-width: 507px;
@@ -297,7 +304,18 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
         max-width: none;
         padding-left: 10px;
         padding-right: 10px;
+      }
 
+      @media screen and (max-width: 591px) {
+        height: 65px;
+      }
+
+      @media screen and (max-width: 574px) {
+        height: 63px;
+      }
+
+      @media screen and (max-width: 345px) {
+        height: 81px;
       }
 
       p {
@@ -305,9 +323,10 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
         font-family: $font-stack;
         font-size: 16px;
         font-weight: 300;
+        margin-bottom: 0;
 
         @media screen and (max-width: 991px) {
-          font-size: 13px
+          font-size: 13px;
         }
       }
     }
@@ -320,22 +339,40 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
       max-width: 155px;
       padding: 13px 0 12px 32px;
 
+      p {
+        margin-bottom: 0;
+      }
+
       @media screen and (max-width: 991px) {
         max-width: 125px;
+        padding: 12px 0 13px 16px;
       }
       @media screen and (max-width: 767px) {
         width: 20%;
         max-width: none;
       }
-      @media screen and (max-width: 566px) {
-        padding: 11px 5px 12px 1px;
+      @media screen and (max-width: 610px) {
+        padding-left: 13px;
+      }
+      @media screen and (max-width: 574px) {
+        padding: 11px 5px 12px 4px;
       }
       @media screen and (max-width: 557px) {
         padding: 12px 5px 11px 5px;
       }
-      @media screen and (max-width: 321px) {
+      @media screen and (max-width: 345px) {
         padding: 21px 5px 20px 5px;
       }
+
+      .pane-content {
+        @media screen and (max-width: 574px) {
+          max-width: 60px;
+          display: block;
+          text-align: center;
+          margin: 0 auto;
+        }
+      }
+
 
       a {
         text-shadow: -1.4px 1.4px 7px rgba(0, 0, 0, 0.81);
@@ -345,7 +382,7 @@ body {min-height: 100%; position: relative; padding-bottom: 180px;}
         font-size: 12px;
         font-weight: 400;
 
-        @media screen and (max-width: 627px) {
+        @media screen and (max-width: 991px) {
           font-size: 11px;
         }
 
